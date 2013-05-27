@@ -1,0 +1,1001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PANDC-HP2</Machine>
+    <WindowsUser>Jay</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>763C347F2418172104882E46D0F40215354945DE26107F764359CF73AEEE8319</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>e3ff0741-24f2-41f5-8559-abb6a503fb09_1.0.0.0_neutral__mxmjbjshrz3mm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>e3ff0741-24f2-41f5-8559-abb6a503fb09_mxmjbjshrz3mm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>e3ff0741-24f2-41f5-8559-abb6a503fb09</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Jay</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-05-27T20:28:07.485</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\1x1.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\1x1.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\arrow_page_l.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\arrow_page_l.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\arrow_page_r.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\arrow_page_r.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b00.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b00.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b05.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b05.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b10.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b10.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b15.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b15.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b20.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b20.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b25.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b25.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b30.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b30.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b35.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b35.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b40.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b40.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b45.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b45.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b50.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b50.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y00.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y00.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y05.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y05.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y10.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y10.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.431</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y15.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y15.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y20.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y20.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y25.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y25.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y30.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y30.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y35.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y35.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y40.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y40.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y45.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y45.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.437</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y50.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y50.gif</PackagePath>
+      <Modified>2013-05-27T20:18:11.437</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\action_item_bullet.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\action_item_bullet.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\beak_only.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\beak_only.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\beak_only_popup.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\beak_only_popup.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.172</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\bear_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\bear_left.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\bear_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\bear_right.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\be_zoom_in.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\be_zoom_in.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\be_zoom_in_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\be_zoom_in_hover.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\be_zoom_out.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\be_zoom_out.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\be_zoom_out_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\be_zoom_out_hover.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\bingLogos.png">
+      <PackagePath>Bing.Maps.JavaScript\images\bingLogos.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\bingLogo_fb.png">
+      <PackagePath>Bing.Maps.JavaScript\images\bingLogo_fb.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\border.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\border.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BreadcrumbUnlock.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BreadcrumbUnlock.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BreadcrumbUnlockFocus.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BreadcrumbUnlockFocus.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\Calendar.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\Calendar.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\cc_zone.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\cc_zone.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.670</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\collapsepanel.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\collapsepanel.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\collections.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\collections.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\compass.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\compass.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\compass.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\compass.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\compass_BE_E.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\compass_BE_E.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\compass_BE_E.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\compass_BE_E.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\compass_BE_N.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\compass_BE_N.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\compass_BE_N.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\compass_BE_N.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\compass_BE_S.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\compass_BE_S.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\compass_BE_S.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\compass_BE_S.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\compass_BE_W.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\compass_BE_W.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\compass_BE_W.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\compass_BE_W.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Infobox\darkinfoboxPointer.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Infobox\darkinfoboxPointer.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\dark_zoom_bar.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\dark_zoom_bar.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\dark_zoom_thumb.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\dark_zoom_thumb.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ddBullet.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ddBullet.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\dd_beak_new.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\dd_beak_new.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\delete.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\delete.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\delete_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\delete_hover.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\directions.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\directions.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_expander_closed.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_expander_closed.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_expander_open.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_expander_open.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_car.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_car.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_car_disabled.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_car_disabled.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_car_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_car_hover.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_car_selected.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_car_selected.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_transit.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_transit.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_transit_disabled.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_transit_disabled.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.691</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_transit_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_transit_hover.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.691</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_transit_selected.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_transit_selected.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_tube.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_tube.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.716</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_tube_disabled.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_tube_disabled.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_tube_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_tube_hover.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_tube_selected.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_tube_selected.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_walking.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_walking.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_walking_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_walking_hover.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_walking_selected.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_walking_selected.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\divider.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\divider.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\dropdown.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\dropdown.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\drop_icon.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\drop_icon.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\enter_roundabout.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\enter_roundabout.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\enter_roundabout_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\enter_roundabout_left.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\exit_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\exit_left.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\exit_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\exit_right.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\exit_roundabout.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\exit_roundabout.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\exit_roundabout_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\exit_roundabout_left.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\expandpanel.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\expandpanel.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\flag_end.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\flag_end.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\flag_start.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\flag_start.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\hideminimap.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\hideminimap.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\icn_info15.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\icn_info15.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\keep_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\keep_left.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\keep_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\keep_right.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\Left_Arrow.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\Left_Arrow.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Infobox\lightinfoboxPointer.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Infobox\lightinfoboxPointer.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\logo.png">
+      <PackagePath>Bing.Maps.JavaScript\images\logo.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\logo2.png">
+      <PackagePath>Bing.Maps.JavaScript\images\logo2.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\logo_md_gray.png">
+      <PackagePath>Bing.Maps.JavaScript\images\logo_md_gray.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\logo_no_shadow.png">
+      <PackagePath>Bing.Maps.JavaScript\images\logo_no_shadow.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\logo_no_shadow2.png">
+      <PackagePath>Bing.Maps.JavaScript\images\logo_no_shadow2.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\mapapps.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\mapapps.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\maximize.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\maximize.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\merge.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\merge.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\merge_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\merge_left.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\merge_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\merge_right.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\minimize.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\minimize.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_airplane_dark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_airplane_dark.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_airplane_dark_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_airplane_dark_large.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_airplane_light.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_airplane_light.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_airplane_light_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_airplane_light_large.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.340</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_bus_dark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_bus_dark.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_bus_dark_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_bus_dark_large.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_bus_light.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_bus_light.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_bus_light_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_bus_light_large.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_ferry_dark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_ferry_dark.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_ferry_dark_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_ferry_dark_large.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_ferry_light.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_ferry_light.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_ferry_light_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_ferry_light_large.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_train_dark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_train_dark.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_train_dark_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_train_dark_large.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_train_light.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_train_light.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.635</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_train_light_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_train_light_large.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_tube_dark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_tube_dark.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_tube_light.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_tube_light.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_tube_maneuver.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_tube_maneuver.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.639</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_walk_dark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_walk_dark.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_walk_dark_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_walk_dark_large.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.641</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_walk_light.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_walk_light.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_walk_light_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_walk_light_large.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nokiaLogos.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nokiaLogos.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\none.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\none.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\notile.png">
+      <PackagePath>Bing.Maps.JavaScript\images\notile.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_0dark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_0dark.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_0dark_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_0dark_h.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_0dark_s.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_0dark_s.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.645</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_0light.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_0light.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_0light_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_0light_h.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_0light_s.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_0light_s.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_55dark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_55dark.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_55dark_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_55dark_h.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_55dark_s.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_55dark_s.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_55light.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_55light.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_55light_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_55light_h.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_55light_s.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_55light_s.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationdark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationdark.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationdark_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationdark_h.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.653</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationdark_s.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationdark_s.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.653</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationlight.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationlight.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationlight_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationlight_h.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationlight_s.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationlight_s.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_userdark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_userdark.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_userdark_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_userdark_h.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.657</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_userdark_s.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_userdark_s.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.657</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_userlight.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_userlight.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.657</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_userlight_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_userlight_h.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_userlight_s.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_userlight_s.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Infobox\pointer_shadow.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Infobox\pointer_shadow.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\POI_dd-via-large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\POI_dd-via-large.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\poi_desktop_default.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\poi_desktop_default.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\poi_desktop_default_selected.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\poi_desktop_default_selected.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.941</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\POI_flag_end.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\POI_flag_end.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\POI_flag_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\POI_flag_hover.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\POI_flag_middle.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\POI_flag_middle.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\POI_flag_start.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\POI_flag_start.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\POI_flag_start_walking.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\POI_flag_start_walking.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\poi_search.png">
+      <PackagePath>Bing.Maps.JavaScript\images\poi_search.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\POI_step.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\POI_step.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Traffic\poi_traffic_red.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Traffic\poi_traffic_red.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Traffic\poi_traffic_yellow.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Traffic\poi_traffic_yellow.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\POI_Walk_Hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\POI_Walk_Hover.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\POI_walk_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\POI_walk_left.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\POI_walk_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\POI_walk_right.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\preview_aerial.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\preview_aerial.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\preview_auto.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\preview_auto.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\preview_birdseye.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\preview_birdseye.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\preview_cb.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\preview_cb.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\preview_os.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\preview_os.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\preview_road.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\preview_road.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\print.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\print.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\Reverse.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\Reverse.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ReverseHover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ReverseHover.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\road_zoom_in.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\road_zoom_in.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\road_zoom_in_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\road_zoom_in_hover.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\road_zoom_out.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\road_zoom_out.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\road_zoom_out_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\road_zoom_out_hover.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\rotate_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\rotate_left.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\rotate_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\rotate_left.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\rotate_left_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\rotate_left_hover.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\rotate_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\rotate_right.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\rotate_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\rotate_right.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\rotate_right_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\rotate_right_hover.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\rr.png">
+      <PackagePath>Bing.Maps.JavaScript\images\rr.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search_go.png">
+      <PackagePath>Bing.Maps.JavaScript\images\search_go.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search_icon.png">
+      <PackagePath>Bing.Maps.JavaScript\images\search_icon.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search_icon_aerial.png">
+      <PackagePath>Bing.Maps.JavaScript\images\search_icon_aerial.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.440</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\share.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\share.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\showminimap.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\showminimap.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\stay_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\stay_left.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\stay_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\stay_right.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\straight.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\straight.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\streetside.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\streetside.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Traffic\tl_key.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Traffic\tl_key.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\Traffic\TrafficIncidentMajor.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\Traffic\TrafficIncidentMajor.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\Traffic\TrafficIncidentMinor.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\Traffic\TrafficIncidentMinor.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\Traffic\TrafficIncidentModerate.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\Traffic\TrafficIncidentModerate.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.169</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\transit.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\transit.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\transit.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\transit.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\transparent_circle_gray.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\transparent_circle_gray.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\transparent_circle_white.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\transparent_circle_white.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\turn_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\turn_left.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\turn_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\turn_right.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\u_turn.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\u_turn.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\u_turn_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\u_turn_right.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\veapiOverlayStyleV2.png">
+      <PackagePath>Bing.Maps.JavaScript\images\veapiOverlayStyleV2.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\walk.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\walk.png</PackagePath>
+      <Modified>2013-05-27T20:18:09.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\YouAreHereBC.png">
+      <PackagePath>Bing.Maps.JavaScript\images\YouAreHereBC.png</PackagePath>
+      <Modified>2013-05-27T20:18:11.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\zoom_bar.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\zoom_bar.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\zoom_minus.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\zoom_minus.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\zoom_plus.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\zoom_plus.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\zoom_thumb.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\zoom_thumb.png</PackagePath>
+      <Modified>2013-05-27T20:18:10.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\Directions.txt">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\Directions.txt</PackagePath>
+      <Modified>2013-05-27T20:18:09.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\mbingDirections.txt">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\mbingDirections.txt</PackagePath>
+      <Modified>2013-05-27T20:18:09.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\cursors\grab.cur">
+      <PackagePath>Bing.Maps.JavaScript\cursors\grab.cur</PackagePath>
+      <Modified>2013-05-27T20:18:09.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\cursors\grabbing.cur">
+      <PackagePath>Bing.Maps.JavaScript\cursors\grabbing.cur</PackagePath>
+      <Modified>2013-05-27T20:18:09.641</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\cursors\target.cur">
+      <PackagePath>Bing.Maps.JavaScript\cursors\target.cur</PackagePath>
+      <Modified>2013-05-27T20:18:09.641</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\cursors\ZoomIn.cur">
+      <PackagePath>Bing.Maps.JavaScript\cursors\ZoomIn.cur</PackagePath>
+      <Modified>2013-05-27T20:18:09.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\cursors\Zoomout.cur">
+      <PackagePath>Bing.Maps.JavaScript\cursors\Zoomout.cur</PackagePath>
+      <Modified>2013-05-27T20:18:09.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\css\mapcontrol.css">
+      <PackagePath>Bing.Maps.JavaScript\css\mapcontrol.css</PackagePath>
+      <Modified>2013-05-27T20:18:09.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\js\veapicore.js">
+      <PackagePath>Bing.Maps.JavaScript\js\veapicore.js</PackagePath>
+      <Modified>2013-05-27T21:30:47.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\js\veapiModules.js">
+      <PackagePath>Bing.Maps.JavaScript\js\veapiModules.js</PackagePath>
+      <Modified>2013-05-27T20:18:11.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-05-27T21:27:58.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-26T15:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-26T15:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-26T15:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-26T15:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-05-27T21:18:19.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\js\jquery.js">
+      <PackagePath>js\jquery.js</PackagePath>
+      <Modified>2013-05-27T16:52:11.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2012-07-26T15:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-05-27T20:28:07.271</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

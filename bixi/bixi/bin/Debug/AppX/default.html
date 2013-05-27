@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bixi</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- bixi references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/js/jquery.js"></script>
+    <!-- Bing Map Control references -->
+    <script type="text/javascript" src="ms-appx:///Bing.Maps.JavaScript//js/veapicore.js"></script>
+    <script type="text/javascript" src="ms-appx:///Bing.Maps.JavaScript//js/veapimodules.js"></script>
+    <script>
+        /**$(document).ready(function(){
+            $("#Content").append("<ul></ul>");
+            $.ajax({
+                type: "GET",
+                url: "https://toronto.bixi.com/data/bikeStations.xml",
+                dataType: "jsonp xml",
+                success: function (xml) {
+                    $(xml).find('station').each(function () {
+                        var sName = $(this).find('name').text();
+                        var sTerminalName = $(this).find('terminalName').text();
+                        var sLat = $(this).find('lat').text();
+                        var sLong = $(this).find('long').text();
+                        $("<li></li>").html(sName + ',' + sTerminalName + ',' + sLat + ',' + sLong).appendTo("#Content ul");
+                    });
+                }
+            });
+        }); //code ends**/
+        Microsoft.Maps.loadModule('Microsoft.Maps.Map', { callback: initMap, culture: 'en-us', homeRegion: 'US'});
+        function initMap() {
+            var map;
+
+            var mapOptions =
+            {
+                credentials: "AnXgHQGJ5mSb2ihUcAEype1aEeCF-F9PCI4QQz5zrbCdg4ZbiHf2vfJSVAOIsS_f"
+            };
+
+            map = new Microsoft.Maps.Map(document.getElementById("mapDiv"), mapOptions);
+        }
+
+    </script>
+</head>
+
+<body>
+    <div id="mapDiv"></div>
+</body>
+
+</html>
