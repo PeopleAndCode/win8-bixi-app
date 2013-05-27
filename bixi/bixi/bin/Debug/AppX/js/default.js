@@ -31,4 +31,9 @@
     };
 
     app.start();
+
+    function setView() {
+        resetMapDiv();
+        map.setView({ center: new Microsoft.Maps.Location(47.6215, -122.349329), mapTypeId: Microsoft.Maps.MapTypeId.auto, zoom: 18 });
+    }
 })();

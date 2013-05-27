@@ -942,7 +942,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\js\veapicore.js">
       <PackagePath>Bing.Maps.JavaScript\js\veapicore.js</PackagePath>
-      <Modified>2013-05-27T21:30:47.301</Modified>
+      <Modified>2013-05-27T21:49:41.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.JavaScript\1.0\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\js\veapiModules.js">
       <PackagePath>Bing.Maps.JavaScript\js\veapiModules.js</PackagePath>
@@ -950,7 +950,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2013-05-27T21:27:58.092</Modified>
+      <Modified>2013-05-27T22:09:54.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -974,7 +974,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2013-05-27T21:18:19.328</Modified>
+      <Modified>2013-05-27T22:32:41.421</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\js\jquery.js">
       <PackagePath>js\jquery.js</PackagePath>

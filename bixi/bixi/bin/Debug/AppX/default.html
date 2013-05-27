@@ -12,6 +12,11 @@
     <!-- bixi references -->
     <link href="/css/default.css" rel="stylesheet" />
     <script src="/js/default.js"></script>
+</head>
+
+<body>
+    <div id="mapDiv"></div>
+
     <script src="/js/jquery.js"></script>
     <!-- Bing Map Control references -->
     <script type="text/javascript" src="ms-appx:///Bing.Maps.JavaScript//js/veapicore.js"></script>
@@ -34,7 +39,7 @@
                 }
             });
         }); //code ends**/
-        Microsoft.Maps.loadModule('Microsoft.Maps.Map', { callback: initMap, culture: 'en-us', homeRegion: 'US'});
+        Microsoft.Maps.loadModule('Microsoft.Maps.Map', { callback: initMap, culture: 'en-us', homeRegion: 'US' });
         function initMap() {
             var map;
 
@@ -45,12 +50,8 @@
 
             map = new Microsoft.Maps.Map(document.getElementById("mapDiv"), mapOptions);
         }
-
     </script>
-</head>
 
-<body>
-    <div id="mapDiv"></div>
 </body>
 
 </html>
