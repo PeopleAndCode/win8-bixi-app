@@ -5,7 +5,7 @@
     <title>Bixi</title>
 
     <!-- WinJS references -->
-    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
     <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
     <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
 
@@ -15,7 +15,12 @@
 </head>
 
 <body>
+
+    <h1>Hello world</h1>
     <div id="mapDiv"></div>
+
+    <!--<div id="xhrOutput">
+    </div>-->
 
     <script src="/js/jquery.js"></script>
     <!-- Bing Map Control references -->
@@ -49,8 +54,81 @@
             };
 
             map = new Microsoft.Maps.Map(document.getElementById("mapDiv"), mapOptions);
+
+            map.setView({
+                center: new Microsoft.Maps.Location(43.6387, -79.3859),
+                mapTypeId: Microsoft.Maps.MapTypeId.road,
+                zoom: 14
+            });
+
+            //get the location
+            Location1 = new Microsoft.Maps.Location(43.66207, -79.37617);
+
+            //init the pin for the first location right on toronto
+            var pushpin = new Microsoft.Maps.Pushpin(Location1, null);
+            map.entities.push(pushpin);
+
+            //get the second location
+            Location2 = new Microsoft.Maps.Location(43.6636, -79.380);
+
+            var pushpin = new Microsoft.Maps.Pushpin(Location2, null);
+            map.entities.push(pushpin);
         }
-    </script>
+        /**(function () {
+            "use strict";
+
+            var app = WinJS.Application;
+
+            // This function responds to all application activations.
+            app.onactivated = function (eventObject) {
+                if (eventObject.detail.kind === Windows.ApplicationModel.Activation.ActivationKind.launch) {
+                    // TODO: Initialize your application here.
+                    WinJS.UI.processAll();
+                    loadRemoteXhr();
+                }
+            };
+
+            function loadRemoteXhr() {
+                document.getElementById("xhrOutput").innerHTML = "";
+                WinJS.xhr({ url: "https://toronto.bixi.com/data/bikeStations.xml" }).then(
+                    xhrParseXml, xhrError
+                    );
+            }
+
+            function xhrParseXml(result) {
+
+                var outputArea = document.getElementById("xhrOutput");
+                var xml = result.responseXML;
+
+                if (xml) {
+                    var items = xml.querySelectorAll("rss > channel > item");
+                    if (items) {
+                        var length = Math.min(10, items.length);
+                        for (var i = 0; i < length; i++) {
+                            var link = document.createElement("a");
+                            var newLine = document.createElement("br")
+                            link.setAttribute("href", items[i].querySelector("link").textContent);
+                            link.innerText = (i + 1) + ") " + items[i].querySelector("title").textContent;
+                            outputArea.appendChild(link);
+                            outputArea.appendChild(newLine);
+                        }
+                    } else {
+                        outputArea.innerHTML = "There are no items available at this time";
+                    }
+                } else {
+                    outputArea.innerHTML =
+                        "Unable to retrieve data at this time. Status code: " + statusCode;
+                }
+            }
+
+            function xhrError(result) {
+
+                var statusCode = result.status;
+                var outputArea = document.getElementById("xhrOutput");
+                outputArea.innerHTML = "Unable to retrieve data at this time. Status code: " + statusCode;
+            }
+        });**/
+   </script>
 
 </body>
 
