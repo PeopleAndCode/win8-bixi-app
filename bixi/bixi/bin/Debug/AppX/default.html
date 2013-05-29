@@ -45,7 +45,7 @@
             map.setView({
                 center: new Microsoft.Maps.Location(43.6387, -79.3859),
                 mapTypeId: Microsoft.Maps.MapTypeId.road,
-                zoom: 15
+                zoom: 14
             });
 
             var info = document.getElementById("ajax");
@@ -67,13 +67,21 @@
                         data.name = items[i].querySelector("name").textContent;
                         data.lat = items[i].querySelector("lat").textContent;
                         data.long = items[i].querySelector("long").textContent;
+                        data.bikesleft = items[i].querySelector("nbBikes").textContent;
+                        data.emptydocks = items[i].querySelector("nbEmptyDocks").textContent;
 
                         //get the location
                         data.name = new Microsoft.Maps.Location(data.lat, data.long);
 
                         //init the pin for the first location right on toronto
-                        var pushpin = new Microsoft.Maps.Pushpin(data.name, null);
+                        var pushpin = new Microsoft.Maps.Pushpin(data.name, { "Name": data.name });
+
                         map.entities.push(pushpin);
+
+                        // Add handler for the pushpin click event.
+                        Microsoft.Maps.Events.addHandler(pushpin, 'mouseover', function () {
+                           infobox.setOptions({ visible: true });
+                        });
                     }
 
                 },
