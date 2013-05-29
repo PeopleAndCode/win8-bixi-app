@@ -21,7 +21,7 @@
 
     <div id="ajax"></div>
 
-    <div id="output"></div>
+    <!--<div id="output"></div>-->
     <!--<div id="xhrOutput">
     </div>-->
 
@@ -31,7 +31,7 @@
     <script type="text/javascript" src="ms-appx:///Bing.Maps.JavaScript//js/veapimodules.js"></script>
     <script>
 
-        /**Microsoft.Maps.loadModule('Microsoft.Maps.Map', { callback: initMap, culture: 'en-us', homeRegion: 'US' });
+        Microsoft.Maps.loadModule('Microsoft.Maps.Map', { callback: initMap, culture: 'en-us', homeRegion: 'US' });
         function initMap() {
             var map;
 
@@ -45,52 +45,48 @@
             map.setView({
                 center: new Microsoft.Maps.Location(43.6387, -79.3859),
                 mapTypeId: Microsoft.Maps.MapTypeId.road,
-                zoom: 14
+                zoom: 15
             });
 
-            //get the location
-            Location1 = new Microsoft.Maps.Location(43.66207, -79.37617);
+            var info = document.getElementById("ajax");
+            info.style.color = "white";
 
-            //init the pin for the first location right on toronto
-            var pushpin = new Microsoft.Maps.Pushpin(Location1, null);
-            map.entities.push(pushpin);
+            WinJS.xhr({ url: "https://toronto.bixi.com/data/bikeStations.xml", responseType: "responseXML" })
+            .done(
+                function complete(result) {
+                    var xml = result.responseXML;
 
-            //get the second location
-            Location2 = new Microsoft.Maps.Location(43.6636, -79.380);
+                    info.innerText = "Downloaded the page";
+                    info.style.backgroundColor = "#00FF00"; //here goes my breakpoint to check response value
 
-            var pushpin = new Microsoft.Maps.Pushpin(Location2, null);
-            map.entities.push(pushpin);
-        }**/
+                    //txt = "";
+                    items = xml.querySelectorAll("station");
 
-        var info = document.getElementById("ajax");
-        info.style.color = "white";
+                    for (var i = 0; i < items.length; i++) {
+                        data = {}
+                        data.name = items[i].querySelector("name").textContent;
+                        data.lat = items[i].querySelector("lat").textContent;
+                        data.long = items[i].querySelector("long").textContent;
 
-        WinJS.xhr({ url: "https://toronto.bixi.com/data/bikeStations.xml", responseType: "responseXML" })
-        .done(
-            function complete(result) {
-                var xml = result.responseXML;
+                        //get the location
+                        data.name = new Microsoft.Maps.Location(data.lat, data.long);
 
-                info.innerText = "Downloaded the page";
-                info.style.backgroundColor = "#00FF00"; //here goes my breakpoint to check response value
+                        //init the pin for the first location right on toronto
+                        var pushpin = new Microsoft.Maps.Pushpin(data.name, null);
+                        map.entities.push(pushpin);
+                    }
 
-                txt = "";
-                items = xml.querySelectorAll("station");
-
-                for (var i = 0; i < items.length; i++) {
-                    txt = txt + items[i].querySelector("name").textContent + "<br>";
+                },
+                function error(result) {
+                    info.innerHTML = "Got error: " + result.statusText;
+                    info.style.backgroundColor = "#FF0000";
+                },
+                function progress(result) {
+                    info.innerText = "Ready state is " + result.readyState;
+                    info.style.backgroundColor = "#0000FF";
                 }
-
-                document.getElementById("output").innerHTML = txt;
-            },
-            function error(result) {
-                info.innerHTML = "Got error: " + result.statusText;
-                info.style.backgroundColor = "#FF0000";
-            },
-            function progress(result) {
-                info.innerText = "Ready state is " + result.readyState;
-                info.style.backgroundColor = "#0000FF";
-            }
-        );
+            );
+        }
 
         /**for (var i = 0; i < items.length; i++) {
             var data = {};
