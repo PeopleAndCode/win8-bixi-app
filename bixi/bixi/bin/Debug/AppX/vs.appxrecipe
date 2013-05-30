@@ -950,7 +950,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2013-05-30T21:33:53.561</Modified>
+      <Modified>2013-05-30T22:20:33.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>

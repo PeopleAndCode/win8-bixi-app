@@ -50,7 +50,7 @@
             var info = document.getElementById("ajax");
             info.style.color = "white";
             //Promise.timeout(200, WinJS.xhr
-            WinJS.Promise.timeout(500, WinJS.xhr({ url: "https://toronto.bixi.com/data/bikeStations.xml", responseType: "responseXML" })
+            WinJS.Promise.timeout(1000, WinJS.xhr({ url: "https://toronto.bixi.com/data/bikeStations.xml", responseType: "responseXML" })
             .done(
                 function complete(result) {
                     var xml = result.responseXML;
@@ -95,6 +95,9 @@
                         // Add handler for the pushpin click event.
                         Microsoft.Maps.Events.addHandler(pushpin, 'click', displayInfobox);
                         Microsoft.Maps.Events.addHandler(pushpin, 'click', hideInfobox);
+
+                        var seconds = new Date().getTime() / 1000;
+                        console.log("hello world"+ seconds);
                     }
 
                     function displayInfobox(e) {
@@ -119,7 +122,7 @@
         }
 
         (function () {
-            window.setInterval(initMap(), 100);
+            window.setInterval(initMap(), 2000);
         });
 
         /**for (var i = 0; i < items.length; i++) {
