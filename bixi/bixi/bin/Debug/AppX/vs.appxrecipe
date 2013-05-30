@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-30T17:17:39.359</Modified>
+      <Modified>2013-05-30T19:55:22.192</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -950,7 +950,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2013-05-30T19:51:39.520</Modified>
+      <Modified>2013-05-30T20:38:52.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>

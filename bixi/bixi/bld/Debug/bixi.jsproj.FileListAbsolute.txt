@@ -7,3 +7,7 @@ c:\users\jay\documents\github\win8-bixi-app\bixi\bixi\bld\Debug\resources.resfil
 c:\users\jay\documents\github\win8-bixi-app\bixi\bixi\bld\Debug\pri.resfiles
 c:\users\jay\documents\github\win8-bixi-app\bixi\bixi\bld\Debug\LanguageQualifiers.txt
 c:\users\jay\documents\github\win8-bixi-app\bixi\bixi\bld\Debug\ProjectArchitectures.txt
+C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\bld\Debug\priconfig.xml.intermediate
+C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\bld\Debug\layout.resfiles.intermediate
+C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\bld\Debug\resources.resfiles.intermediate
+C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\bld\Debug\pri.resfiles.intermediate

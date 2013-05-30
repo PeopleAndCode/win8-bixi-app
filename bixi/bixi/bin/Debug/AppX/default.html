@@ -75,36 +75,37 @@
 
                         //get the location
                         pin = new Microsoft.Maps.Location(data.lat, data.long);
+                        
 
                         //init the pin for the first location right on toronto
                         var pushpin = new Microsoft.Maps.Pushpin(pin, null);
+                        pushpin.title = data.name;
+                        pushpin.description = "emptydocks:" + data.emptydocks + "<br>" +
+                                             "bikesleft:" + data.bikesleft;
 
                         // Create the infobox for the pushpin
                         var pinInfobox = new Microsoft.Maps.Infobox(pin,
                             {
-                                id : data.id,
-                                title: data.name,
-                                description: "emptydocks:" + data.emptydocks + "<br>" +
-                                             "bikesleft:" + data.bikesleft,
                                 visible: false
                             });
+
+                        map.entities.push(pushpin);
+                        map.entities.push(pinInfobox);
 
                         // Add handler for the pushpin click event.
                         Microsoft.Maps.Events.addHandler(pushpin, 'click', displayInfobox);
                         Microsoft.Maps.Events.addHandler(pushpin, 'click', hideInfobox);
-
-                        map.entities.push(pushpin);
-                        map.entities.push(pinInfobox);
                     }
 
                     function displayInfobox(e) {
-                        pinInfobox.setOptions({title: e.Title, description: e.Description, visible:true});
+                        pinInfobox.setOptions({ title: e.target.title, description: e.target.description, visible: true });
                         pinInfobox.setLocation(e.target.getLocation());
                     }
 
                     function hideInfobox(e) {
                         pinInfobox.setOptions({ visible: false });
                     }
+
                 },
                 function error(result) {
                     info.innerHTML = "Got error: " + result.statusText;
