@@ -42,15 +42,15 @@
             map = new Microsoft.Maps.Map(document.getElementById("mapDiv"), mapOptions);
 
             map.setView({
-                center: new Microsoft.Maps.Location(43.6387, -79.3859),
+                center: new Microsoft.Maps.Location(43.6523, -79.3792),
                 mapTypeId: Microsoft.Maps.MapTypeId.road,
-                zoom: 14
+                zoom: 15
             });
 
             var info = document.getElementById("ajax");
             info.style.color = "white";
-
-            WinJS.xhr({ url: "https://toronto.bixi.com/data/bikeStations.xml", responseType: "responseXML" })
+            //Promise.timeout(200, WinJS.xhr
+            WinJS.Promise.timeout(500, WinJS.xhr({ url: "https://toronto.bixi.com/data/bikeStations.xml", responseType: "responseXML" })
             .done(
                 function complete(result) {
                     var xml = result.responseXML;
@@ -115,8 +115,12 @@
                     info.innerText = "Ready state is " + result.readyState;
                     info.style.backgroundColor = "#0000FF";
                 }
-            );
+            ));
         }
+
+        (function () {
+            window.setInterval(initMap(), 100);
+        });
 
         /**for (var i = 0; i < items.length; i++) {
             var data = {};
