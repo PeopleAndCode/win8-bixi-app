@@ -16,7 +16,6 @@
 
 <body>
 
-    <h1>Hello world</h1>
     <div id="mapDiv"></div>
 
     <div id="ajax"></div>
@@ -62,8 +61,12 @@
                     //txt = "";
                     items = xml.querySelectorAll("station");
 
+                    var pinInfoBox;  //the pop up info box
+                    
+                    data = {};
+
                     for (var i = 0; i < items.length; i++) {
-                        data = {}
+                        data.id = i;
                         data.name = items[i].querySelector("name").textContent;
                         data.lat = items[i].querySelector("lat").textContent;
                         data.long = items[i].querySelector("long").textContent;
@@ -71,19 +74,37 @@
                         data.emptydocks = items[i].querySelector("nbEmptyDocks").textContent;
 
                         //get the location
-                        data.name = new Microsoft.Maps.Location(data.lat, data.long);
+                        pin = new Microsoft.Maps.Location(data.lat, data.long);
 
                         //init the pin for the first location right on toronto
-                        var pushpin = new Microsoft.Maps.Pushpin(data.name, { "Name": data.name });
+                        var pushpin = new Microsoft.Maps.Pushpin(pin, null);
 
-                        map.entities.push(pushpin);
+                        // Create the infobox for the pushpin
+                        var pinInfobox = new Microsoft.Maps.Infobox(pin,
+                            {
+                                id : data.id,
+                                title: data.name,
+                                description: "emptydocks:" + data.emptydocks + "<br>" +
+                                             "bikesleft:" + data.bikesleft,
+                                visible: false
+                            });
 
                         // Add handler for the pushpin click event.
-                        Microsoft.Maps.Events.addHandler(pushpin, 'mouseover', function () {
-                           infobox.setOptions({ visible: true });
-                        });
+                        Microsoft.Maps.Events.addHandler(pushpin, 'click', displayInfobox);
+                        Microsoft.Maps.Events.addHandler(pushpin, 'click', hideInfobox);
+
+                        map.entities.push(pushpin);
+                        map.entities.push(pinInfobox);
                     }
 
+                    function displayInfobox(e) {
+                        pinInfobox.setOptions({title: e.target.Title, description: e.target.Description, visible:true});
+                        pinInfobox.setLocation(e.target.getLocation());
+                    }
+
+                    function hideInfobox(e) {
+                        pinInfobox.setOptions({ visible: false });
+                    }
                 },
                 function error(result) {
                     info.innerHTML = "Got error: " + result.statusText;

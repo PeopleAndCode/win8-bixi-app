@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-27T20:28:07.485</Modified>
+      <Modified>2013-05-30T17:17:39.359</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -950,43 +950,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2013-05-29T19:08:38.337</Modified>
+      <Modified>2013-05-30T19:51:39.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-07-26T15:30:08.000</Modified>
+      <Modified>2013-05-30T17:14:02.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-07-26T15:30:08.000</Modified>
+      <Modified>2013-05-30T17:14:02.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-07-26T15:30:08.000</Modified>
+      <Modified>2013-05-30T17:14:02.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-07-26T15:30:08.000</Modified>
+      <Modified>2013-05-30T17:14:02.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2013-05-29T04:42:42.085</Modified>
+      <Modified>2013-05-30T17:14:02.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\js\jquery.js">
       <PackagePath>js\jquery.js</PackagePath>
-      <Modified>2013-05-27T16:52:11.545</Modified>
+      <Modified>2013-05-30T17:14:02.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2012-07-26T15:30:08.000</Modified>
+      <Modified>2013-05-30T17:14:02.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jay\Documents\GitHub\win8-bixi-app\bixi\bixi\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-05-27T20:28:07.271</Modified>
+      <Modified>2013-05-30T17:17:38.661</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
