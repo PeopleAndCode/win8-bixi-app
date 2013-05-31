@@ -1,5 +1,5 @@
- // call initMap() from data.js
- 
+ // call initMap() from map.js
+
  (function () {
     window.setInterval(initMap(), 10000);
 });
